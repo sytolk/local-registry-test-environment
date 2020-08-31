@@ -1,10 +1,10 @@
 {
   "version": "0.3.0",
-  "name": "@bigab/local-registry-test-environment",
-  "author": "Adam L Barrett",
+  "name": "@ts/test-environment-web",
+  "author": "Stanimir V Marinov",
   "license": "MIT",
   "main": "src/index.js",
-  "description": "A Jest Test Environment that runs with a local-registry for CLI testing",
+  "description": "A Jest Test Environment",
   "files": [
     "src",
     "README.md",
@@ -19,10 +19,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "get-port": "^5.1.1",
-    "jest-environment-node": "^25.4.0",
-    "tmp-promise": "^2.0.2",
-    "verdaccio": "^4.6.0"
+    "jest-environment-node": "^26.3.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
